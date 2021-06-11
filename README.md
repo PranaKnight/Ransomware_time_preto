@@ -1,7 +1,5 @@
 # Ransomware
 
-![Ransomware%202fa56671e4794d728bb76fa1b1891b1d/fsociety_brasil_no_ar_por_mais_1_ano-618139.jpg](Ransomware%202fa56671e4794d728bb76fa1b1891b1d/fsociety_brasil_no_ar_por_mais_1_ano-618139.jpg)
-
 Venha ajudar a Fsociety criando novos ransomwares para destruirmos as grande corporações.
 
 1° passo:
